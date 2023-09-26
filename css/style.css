@@ -64,8 +64,8 @@ nav a{
 
 .divBox{
     background-color: rgba(251, 250, 255, 0.7);
-    max-width: 940px;
-    width:100%;
+    max-width: 980px;
+    width:90%;
     border-color: #701F2E;
     border-style: solid;
     border-width: 1px;
@@ -84,6 +84,7 @@ nav a{
 p{
     font-family: Roboto;
     font-size: smaller;
+    padding: 5px;
 }
 
 .divBox p::first-letter {
@@ -106,9 +107,9 @@ p{
     flex-direction: row;
     align-items: center; 
     /*justify-content: space-between;*/
-    width: 80%; 
+    width: 100%; 
     margin-top: 5px;
-    
+    padding: 10px;
 }
 
 .wineCard2 img{
@@ -120,7 +121,7 @@ p{
     margin-left: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     .wineCard2{
         margin-left: 100px;
     }
